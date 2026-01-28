@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Tổ 2</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+        }
+        header {
+            background-color: #2c7be5;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            display: flex;
+            gap: 20px;
+        }
+        .side {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .member {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            display: flex;
+            padding: 15px;
+            gap: 15px;
+        }
+        .member img {
+            width: 120px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 6px;
+            background-color: #ddd;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            font-size: 14px;
+        }
+        table td {
+            border: 1px solid #ccc;
+            padding: 6px 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Tổ 2</h1>
+    <p>Lớp 12 – Môn Tin học</p>
+</header>
+
+<div class="container">
+    <!-- Side trái -->
+    <div class="side">
+        <div class="member">
+            <img src="tien.jpg" alt="Thành viên 1">
+            <table>
+                <tr><td>Họ và tên</td><td>Lê Ngọc Thủy Tiên</td></tr>
+                <tr><td>Vai trò</td><td>Tổ trưởng</td></tr>
+                <tr><td>Sở thích</td><td>Vẽ Tranh</td></tr>
+            </table>
+        </div>
+
+        <div class="member">
+            <img src="ychi.jpg" alt="Thành viên 2">
+            <table>
+                <tr><td>Họ và tên</td><td>Trần Yến Chi</td></tr>
+                <tr><td>Vai trò</td><td>Thành viên</td></tr>
+                <tr><td>Sở thích</td><td>Chụp Hình</td></tr>
+            </table>
+        </div>
+
+        <div class="member">
+            <img src="phuc.jpg" alt="Thành viên 3">
+            <table>
+                <tr><td>Họ và tên</td><td>Đinh Minh Phúc</td></tr>
+                <tr><td>Vai trò</td><td>Thành viên</td></tr>
+                <tr><td>Sở thích</td><td>Nhiếp Ảnh</td></tr>
+            </table>
+        </div>
+
+        <div class="member">
+            <img src="nhan.jpg" alt="Thành viên 4">
+            <table>
+                <tr><td>Họ và tên</td><td>Nguyễn Thiện Nhân</td></tr>
+                <tr><td>Vai trò</td><td>Thành viên</td></tr>
+                <tr><td>Sở thích</td><td>Đọc sách</td></tr>
+            </table>
+        </div>
+
+        <div class="member">
+            <img src="dat.jpg" alt="Thành viên 5">
+            <table>
+                <tr><td>Họ và tên</td><td>Nguyễn Thành Đạt</td></tr>
+                <tr><td>Vai trò</td><td>Thành viên</td></tr>
+                <tr><td>Sở thích</td><td>Bóng Chuyền</td></tr>
+            </table>
+        </div>
+
+        <div class="member">
+            <img src="quyen.jpg" alt="Thành viên 6">
+            <table>
+                <tr><td>Họ và tên</td><td>Trương Thục Quyên</td></tr>
+                <tr><td>Vai trò</td><td>Thành viên</td></tr>
+                <tr><td>Sở thích</td><td>Xem Phim</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Side phải -->
+    <div class="side">
+        <div class="member">
+            <img src="trang.jpg" alt="Thành viên 7">
+            <table>
+                <tr><td>Họ và tên</td><td>Chu Thị Huyền Trang</td></tr>
+                <tr><td>Vai trò</td><td>Thành viên</td></tr>
+                <tr><td>Sở thích</td><td>Game</td></tr>
+            </table>
+        </div>
+
+        <div class="member">
+            <img src="tra.jpg" alt="Thành viên 8">
+            <table>
+                <tr><td>Họ và tên</td><td>Bùi Văn Trà</td></tr>
+                <tr><td>Vai trò</td><td>Thành viên</td></tr>
+                <tr><td>Sở thích</td><td>Chăn Vịt</td></tr>
+            </table>
+        </div>
+
+        <div class="member">
+            <img src="mchi.jpg" alt="Thành viên 9">
+            <table>
+                <tr><td>Họ và tên</td><td>Vũ Thị Mai Chi</td></tr>
+                <tr><td>Vai trò</td><td>Thành viên</td></tr>
+                <tr><td>Sở thích</td><td>Đan Len</td></tr>
+            </table>
+        </div>
+
+        <div class="member">
+            <img src="mtu.jpg" alt="Thành viên 10">
+            <table>
+                <tr><td>Họ và tên</td><td>Vũ Thị Minh Tú</td></tr>
+                <tr><td>Vai trò</td><td>Thành viên</td></tr>
+                <tr><td>Sở thích</td><td>Học</td></tr>
+            </table>
+        </div>
+
+        <div class="member">
+            <img src="tram.jpg" alt="Thành viên 11">
+            <table>
+                <tr><td>Họ và tên</td><td>Nguyễn Bảo Trâm</td></tr>
+                <tr><td>Vai trò</td><td>Thành viên</td></tr>
+                <tr><td>Sở thích</td><td>Xem phim</td></tr>
+            </table>
+        </div>
+
+        <div class="member">
+            <img src="thanh.jpg" alt="Thành viên 12">
+            <table>
+                <tr><td>Họ và tên</td><td>Nguyễn Chí Thanh</td></tr>
+                <tr><td>Vai trò</td><td>Thành viên</td></tr>
+                <tr><td>Sở thích</td><td>Âm nhạc</td></tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<footer>
+     Trang web giới thiệu Tổ 1 - 12 Animals
+</footer>
+
+</body>
+</html>
